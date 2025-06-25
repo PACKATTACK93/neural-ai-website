@@ -39,12 +39,14 @@ A comprehensive, visually stunning website exploring the cutting-edge world of n
 ### Installation
 
 1. **Clone or Download the Project**
+
    ```bash
    git clone <repository-url>
    cd neural-ai-website
    ```
 
 2. **Navigate to Website Directory**
+
    ```bash
    cd project/website
    ```
@@ -52,29 +54,29 @@ A comprehensive, visually stunning website exploring the cutting-edge world of n
 3. **Start Local Server** (Choose one method)
 
    **Python HTTP Server:**
+
    ```bash
    python -m http.server 8000
    ```
 
    **Node.js HTTP Server:**
+
    ```bash
    npm install -g http-server
    http-server -p 8000
    ```
 
    **PHP Built-in Server:**
+
    ```bash
    php -S localhost:8000
    ```
 
 4. **Open in Browser**
-   ```
-   http://localhost:8000
-   ```
+<http://localhost:8000>
 
 ## 📁 Project Structure
 
-```
 project/
 ├── website/                     # Final website files
 │   ├── index.html              # Main HTML file
@@ -97,7 +99,6 @@ project/
 ├── deployment/                 # Deployment instructions
 │   └── README.md              # Comprehensive deployment guide
 └── README.md                  # This file
-```
 
 ## 🎨 Design Highlights
 
@@ -272,6 +273,7 @@ See `deployment/README.md` for detailed deployment instructions.
 ## 📚 Educational Value
 
 This website serves as both a showcase of modern web development techniques and an educational resource about:
+
 - Current AI trends and technologies
 - Neural network architectures and applications
 - Ethical considerations in AI development
@@ -280,6 +282,7 @@ This website serves as both a showcase of modern web development techniques and 
 ## 🤝 Contributing
 
 While this is a complete project, potential improvements could include:
+
 - Additional AI tool reviews
 - More interactive demonstrations
 - Updated trend information
@@ -299,6 +302,7 @@ This project is created for educational and demonstration purposes. Feel free to
 ## 📞 Support
 
 For technical issues or questions:
+
 1. Check the deployment guide in `deployment/README.md`
 2. Verify browser compatibility requirements
 3. Test with browser developer tools
@@ -316,5 +320,4 @@ For technical issues or questions:
 ---
 
 **Built with modern web technologies and a passion for AI education.**
-
 *Last updated: June 2025*
