@@ -206,4 +206,4 @@
 - Neon accents on dark backgrounds
 - Glowing connection lines and nodes
 - Gradient overlays and transparency effects
-- Minimalist, tech-forward design elements
+- Minimalist, tech-forward design element
