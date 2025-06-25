@@ -1,10 +1,11 @@
 # Neural Networks and AI Website - Deployment Guide
 
 ## Overview
+
 This guide provides comprehensive instructions for deploying the Neural Networks and AI website both locally and on various web hosting platforms.
 
 ## Project Structure
-```
+
 project/
 ├── website/                     # Final website files
 │   ├── index.html              # Main HTML file
@@ -21,9 +22,9 @@ project/
 │       └── deep_learning_architectures.png
 ├── assets/                     # Research materials and raw images
 └── deployment/                 # Deployment instructions (this directory)
-```
 
 ## Requirements
+
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - Internet connection for Google Fonts
 - No server-side dependencies required (pure HTML/CSS/JavaScript)
@@ -31,6 +32,7 @@ project/
 ## Local Development Setup
 
 ### Method 1: Python HTTP Server (Recommended)
+
 ```bash
 # Navigate to the website directory
 cd project/website
@@ -46,6 +48,7 @@ python -m SimpleHTTPServer 8000
 ```
 
 ### Method 2: Node.js HTTP Server
+
 ```bash
 # Install http-server globally
  
@@ -61,6 +64,7 @@ http-server -p 8000
 ```
 
 ### Method 3: PHP Built-in Server
+
 ```bash
 # Navigate to website directory
 cd project/website
@@ -73,7 +77,8 @@ php -S localhost:8000
 ```
 
 ### Method 4: Live Server (VS Code Extension)
-1. Install "Live Server" extension in VS Code
+
+1. Install Live Server extension in VS Code
 2. Open the project folder in VS Code
 3. Right-click on `index.html`
 4. Select "Open with Live Server"
@@ -81,15 +86,15 @@ php -S localhost:8000
 ## Web Hosting Deployment
 
 ### GitHub Pages (Free)
+
 1. **Create GitHub Repository:**
-   ```bash
+bash
    git init
    git add .
    git commit -m "Initial commit: Neural Networks AI Website"
    git branch -M main
-   git remote add origin https://github.com/PACKATTACK93/neural-ai-website.git
+   git remote add origin <https://github.com/PACKATTACK93/neural-ai-website>
    git push -u origin main
-   ```
 
 2. **Enable GitHub Pages:**
    - Go to repository Settings
@@ -103,6 +108,7 @@ php -S localhost:8000
    - May take 5-10 minutes to deploy
 
 ### Netlify (Free Tier Available)
+
 1. **Drag and Drop Method:**
    - Visit [netlify.com](https://netlify.com)
    - Drag the `website` folder to the deploy area
@@ -120,12 +126,13 @@ php -S localhost:8000
    - Configure DNS records
 
 ### Vercel (Free Tier Available)
+
 1. **Install Vercel CLI:**
-   ```bash
+bash
    npm install -g vercel
-   ```
 
 2. **Deploy:**
+
    ```bash
    cd project/website
    vercel
@@ -138,6 +145,7 @@ php -S localhost:8000
    - No output directory needed
 
 ### Traditional Web Hosting (cPanel/FTP)
+
 1. **Prepare files:**
    - Compress the `website` folder contents
    - Ensure `index.html` is in the root
@@ -154,7 +162,9 @@ php -S localhost:8000
 ## Performance Optimization
 
 ### Image Optimization
+
 Images are already optimized, but for further optimization:
+
 ```bash
 # Install imagemin-cli
 npm install -g imagemin-cli
@@ -164,7 +174,9 @@ imagemin images/*.jpg images/*.png --out-dir=images/optimized
 ```
 
 ### Gzip Compression
+
 Add to `.htaccess` file for Apache servers:
+
 ```apache
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain
@@ -180,7 +192,9 @@ Add to `.htaccess` file for Apache servers:
 ```
 
 ### Browser Caching
+
 Add to `.htaccess` file:
+
 ```apache
 <IfModule mod_expires.c>
     ExpiresActive on
@@ -195,12 +209,15 @@ Add to `.htaccess` file:
 ## Security Considerations
 
 ### Content Security Policy
+
 Add to HTML head or server headers:
+
 ```html
 <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self';">
 ```
 
 ### HTTPS Enforcement
+
 Most modern hosting platforms provide free SSL certificates. Ensure HTTPS is enabled.
 
 ## Troubleshooting
@@ -227,13 +244,16 @@ Most modern hosting platforms provide free SSL certificates. Ensure HTTPS is ena
    - Verify file upload and permissions
 
 ### Browser Compatibility
+
 - Chrome 60+
 - Firefox 55+
 - Safari 12+
 - Edge 79+
 
 ### Mobile Responsiveness
+
 The website is fully responsive and tested on:
+
 - iOS Safari
 - Android Chrome
 - Various screen sizes (320px to 1920px+)
@@ -241,7 +261,9 @@ The website is fully responsive and tested on:
 ## Monitoring and Analytics
 
 ### Google Analytics (Optional)
+
 Add before closing `</head>` tag:
+
 ```html
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
@@ -254,6 +276,7 @@ Add before closing `</head>` tag:
 ```
 
 ### Performance Monitoring
+
 - Use Google PageSpeed Insights
 - Monitor Core Web Vitals
 - Test on various devices and connections
@@ -261,12 +284,14 @@ Add before closing `</head>` tag:
 ## Maintenance
 
 ### Regular Updates
+
 - Keep content current with latest AI trends
 - Update images as needed
 - Monitor for broken links
 - Test functionality across browsers
 
 ### Backup Strategy
+
 - Regular backups of website files
 - Version control with Git
 - Database backups (if applicable in future)
@@ -274,16 +299,19 @@ Add before closing `</head>` tag:
 ## Support and Documentation
 
 ### Technical Support
+
 - Check browser developer console for errors
 - Validate HTML/CSS using W3C validators
 - Test JavaScript functionality
 
 ### Additional Resources
+
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [Can I Use](https://caniuse.com/) for browser compatibility
 - [Google Fonts](https://fonts.google.com/) for typography
 
 ## License and Attribution
+
 This website uses images from various sources as documented in the assets folder. Ensure proper attribution when required by image licenses.
 
 ---
