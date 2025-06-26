@@ -1,6 +1,6 @@
 # Neural Networks and AI Generation Website - Deployment Guide
 
- 🌟 Introduction
+## 🌟 Introduction
 
 comprehensive, visually stunning website exploring the cutting-edge world of neural networks, artificial intelligence, and AI generation technologies. This project showcases modern web development techniques with interactive visualizations, responsive design, and educational content about AI trends, architectures, and ethical considerations.
 
@@ -29,77 +29,6 @@ comprehensive, visually stunning website exploring the cutting-edge world of neu
 - **Semantic HTML**: Accessible and SEO-optimized structure
 - **Cross-browser Compatibility**: Works on all modern browsers
 - **Performance Optimized**: Fast loading with optimized images and code
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- Internet connection for Google Fonts
-- Local server for development (optional but recommended)
-
-### Installation
-
-1. **Clone or Download the Project**
-
-   ```bash
-   git clone <repository-url>
-   cd neural-ai-website
-   ```
-
-2. **Navigate to Website Directory**
-
-   ```bash
-   cd project/website
-   ```
-
-3. **Start Local Server** (Choose one method)
-
-   **Python HTTP Server:**
-
-   ```bash
-   python -m http.server 8000
-   ```
-
-   **Node.js HTTP Server:**
-
-   ```bash
-   npm install -g http-server
-   http-server -p 8000
-   ```
-
-   **PHP Built-in Server:**
-
-   ```bash
-   php -S localhost:8000
-   ```
-
-4. **Open in Browser**
-<http://localhost:8000>
-
-## 📁 Project Structure
-
-project/
-├── website/                     # Final website files
-│   ├── index.html              # Main HTML file
-│   ├── css/
-│   │   └── style.css           # Complete stylesheet with animations
-│   ├── js/
-│   │   └── main.js             # All JavaScript functionality
-│   └── images/                 # AI/neural network themed images
-│       ├── neural_network_architecture.png
-│       ├── illuminated_neural_network.jpg
-│       ├── brain_computer_interface.jpg
-│       ├── ai_tools_comparison.png
-│       ├── ai_ethics_principles.jpg
-│       └── deep_learning_architectures.png
-├── assets/                     # Research materials and documentation
-│   ├── ai_research_documentation.md
-│   ├── content_outline.md
-│   ├── image_sources_and_references.md
-│   └── visual_elements_requirements.md
-├── deployment/                 # Deployment instructions
-│   └── README.md              # Comprehensive deployment guide
 
 ## 🎨 Design Highlights
 
@@ -414,7 +343,7 @@ bash
    git add .
    git commit -m "Initial commit: Neural Networks AI Website"
    git branch -M main
-   git remote add origin <https://github.com/PACKATTACK93/neural-ai-website>
+   git remote add origin
    git push -u origin main
 
 2. **Enable GitHub Pages:**
