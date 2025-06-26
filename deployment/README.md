@@ -1,8 +1,10 @@
-# Neural Networks and AI Generation Website - Deployment Guide
+# A study and learning Guide for Neural Networks and AI Generation/ Includes an optional website deployment guide
 
 ## 🌟 Introduction
 
-comprehensive, visually stunning website exploring the cutting-edge world of neural networks, artificial intelligence, and AI generation technologies. This project showcases modern web development techniques with interactive visualizations, responsive design, and educational content about AI trends, architectures, and ethical considerations.
+**Project Overview**:
+
+**Comprehensive, visually stunning website exploring the cutting-edge world of neural networks, artificial intelligence, and AI generation technologies. This project showcases modern web development techniques with interactive visualizations, responsive design, and educational content about AI trends, architectures, and ethical considerations.**
 
 ## 🌟 Features
 
@@ -248,9 +250,6 @@ For technical issues or questions:
   - Deployment-ready code
 
 ---
-
-**Built with modern web technologies and a passion for AI education.**
-*Last updated: June 2025*
 
 This guide provides comprehensive instructions for deploying the Neural Networks and AI website both locally and on various web hosting platforms.
 
@@ -562,9 +561,9 @@ Add before closing `</head>` tag:
 
 ## License and Attribution
 
-This website uses images from various sources as documented in the assets folder. Ensure proper attribution when required by image licenses.
+This website uses images from various sources as documented in the images and refrences folder folder. Ensure proper attribution when required by image licenses.
+[Image Credits](https://github.com/yourusername/website/blob/main/images/CREDITS.md)
 
 ---
-
-**Last Updated:** June 2025
-**Version:** 1.0
+**Built with modern web technologies and a passion for AI education.**
+*Last updated: June 2025*
