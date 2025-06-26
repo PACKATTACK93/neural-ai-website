@@ -1,4 +1,4 @@
-# A study and learning Guide for Neural Networks and AI Generation/ Includes an optional website deployment guide
+# A study and learning Guide for Neural Networks and AI Generation/ Includes a website builder and deployment guide for AI content and ML
 
 ## 🌟 Introduction
 
