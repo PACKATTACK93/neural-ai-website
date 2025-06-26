@@ -100,7 +100,6 @@ project/
 │   └── visual_elements_requirements.md
 ├── deployment/                 # Deployment instructions
 │   └── README.md              # Comprehensive deployment guide
-└── README.md                  # This file
 
 ## 🎨 Design Highlights
 
