@@ -1,8 +1,7 @@
-**A visual study and learning Demo for Neural Nets and AI Generation/ Includes a website builder and deployment guide for AI and ML content**
+# A visual study and learning Demo for Neural Nets and AI Generation / Includes a website builder and deployment guide for AI and ML content
 
 **Website Script example below**:
-https://lazy-sapphire-sloth.intern.rabbitos.app/project/website/index_fixed.html
-
+<https://lazy-sapphire-sloth.intern.rabbitos.app/project/website/index_fixed.html>
 
 ## 🌟 Introduction
 
